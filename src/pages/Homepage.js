@@ -2,9 +2,8 @@ import React from 'react'
 
 import { Avatar, Typography } from '@mui/material'
 import Typewriter from 'typewriter-effect'
-
+import './Homepage.css'
 import myAvatar from '../assets/img/pp.jpg'
-
 const Homepage = (props) => {
   const strings = ['Mobile Developer.', 'Software Engineer.', 'Programmer.']
 
@@ -27,7 +26,9 @@ const Homepage = (props) => {
             alignItems: 'center'
           }}>
           <div>
-            <Typography variant="h2">Hi! I'm Gonz.</Typography>
+            <div data-aos="fade-down-right">
+              <Typography variant="h2">Hi! I'm Gonz.</Typography>
+            </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <Typography variant="h4" sx={{ marginRight: 1 }}>
                 I am a
@@ -44,7 +45,7 @@ const Homepage = (props) => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-duration={1000}>
+          <div data-aos="fade-left" data-aos-duration={1000} class="avatar">
             <Avatar alt="myavatar" src={myAvatar} sx={{ width: '320px', height: '320px' }} />
           </div>
         </div>
