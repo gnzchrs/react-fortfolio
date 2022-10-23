@@ -25,13 +25,13 @@ const About = (props) => {
             mobile programmer .
           </Typography>
         </div>
-        <div data-aos="fade-right" data-aos-duration={500} data-aos-delay={100}>
+        <div data-aos="fade-right" data-aos-duration={500} data-aos-delay={200}>
           <Typography variant="h4" sx={{ textAlign: 'justify', paddingTop: '2em' }}>
             I graduated with a degree in Bachelor of Science in Information Technology at University
             of Cebu Main Campus. I am a flexible, reliable and result-driven programmer.
           </Typography>
         </div>
-        <div data-aos="fade-right" data-aos-duration={500} data-aos-delay={100}>
+        <div data-aos="fade-right" data-aos-duration={500} data-aos-delay={300}>
           <Typography variant="h4" sx={{ textAlign: 'justify', paddingTop: '2em' }}>
             I experienced working as an office admin part-time when I was in my earlier years in
             college. I have also worked as a Software Engineer Intern in my Practicum and assigned
