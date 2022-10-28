@@ -32,7 +32,9 @@ const About = (props) => {
           </Typography>
         </div>
         <div data-aos="fade-right" data-aos-duration={500} data-aos-delay={300}>
-          <Typography variant="h4" sx={{ textAlign: 'justify', paddingTop: '2em' }}>
+          <Typography
+            variant="h4"
+            sx={{ textAlign: 'justify', paddingTop: '2em', paddingBottom: '3em' }}>
             I experienced working as an office admin part-time when I was in my earlier years in
             college. I have also worked as a Software Engineer Intern in my Practicum and assigned
             in the Front-End Mobile Team. In my Capstone Project, I was tasked to lead and maintain
